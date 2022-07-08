@@ -1,0 +1,264 @@
+
+/* #512DA8
+LIGHT PRIMARY COLOR #D1C4E9
+PRIMARY COLOR #673AB7
+TEXT / ICONS #FFFFFF
+ACCENT COLOR #607D8B
+PRIMARY TEXT #212121
+SECONDARY TEXT #757575
+DIVIDER COLOR #BDBDBD 
+
+*/
+
+
+/* background settings */
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title{
+    text-transform: uppercase;
+    border-bottom:solid 3px #673AB7;
+    padding-bottom: 0.5em;
+    /* border-width: 3px;
+    color:#673AB7; */
+
+
+}
+
+.container .fondo{
+
+
+    background: #512DA8;  /* fallback for old browsers */
+    
+
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+
+
+/* table settings index */
+.table{
+    max-width: 1000px;
+    max-height: 550px;
+
+    min-width: 1000px;
+    width: 100%;
+    height: 100%;
+    background-color: #D1C4E9;
+    border-radius: 1em;
+    box-shadow: 12px 6px 10px black ;
+    position: relative;
+} 
+
+
+h1{
+    color: #673AB7;
+    text-align: center;
+}
+h2{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 900;
+}
+    
+
+.table_anime{
+
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+.table_anime td , .table_anime th{
+    padding: 1em;
+    text-align: left;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.table_anime tr:nth-child(even) {
+    background: #607D8B;
+
+}
+
+
+.fa-star{
+color: bisque;
+}
+
+
+
+
+/* hypertext */
+a{
+    color:#673AB7
+}
+
+
+
+
+/* close button */
+
+
+.action{
+ position: absolute;
+ top:0.5em;
+ right: 1em;
+
+
+}
+
+.close{
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius:50% ;
+    background: #673AB7;
+    display: inline-block;
+    display: flex ;
+    justify-content:center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5em;
+
+
+} 
+
+
+.close:hover{
+    background: #20F6F9;
+    transition: 1s all;
+}
+
+.big-container{
+ 
+   position: absolute;
+    max-width: 1000px;
+    max-height: 500px;
+
+}
+
+
+
+
+/* img and content tomodashigame */
+
+
+.img_anime{
+    width: 200px;
+    height: 300px;
+    
+
+  
+
+}
+
+ .img{
+ position: relative;
+ left: 25px;
+ margin-left:30px ;
+
+ 
+  
+
+}
+
+
+.description{
+margin: 1em;
+margin-left: 4em;
+width: 80%;
+font-size: 20px;
+text-align: justify;
+display: flex;
+flex-wrap: nowrap;
+
+}
+
+.star{
+    display: flex;
+ justify-content: center;  
+}
+
+
+.container .tomodashi{
+
+
+    background: #B22E2E;  /* fallback for old browsers */
+
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+
+/* content shikomoris */
+.container .shikomoris{
+
+
+    background: #E46FA6;  /* fallback for old browsers */
+
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+
+
+/* content kaguya */
+.container .kaguya{
+
+
+    background: #D4192A;  /* fallback for old browsers */
+
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+/* content kaguya */
+.container .otome{
+
+
+    background: #EEF116;  /* fallback for old browsers */
+
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+
+.container .banished{
+
+
+    background: #20F6F9;  /* fallback for old browsers */
+
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
